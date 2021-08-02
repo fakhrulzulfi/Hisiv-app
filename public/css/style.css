@@ -1,0 +1,70 @@
+*{
+	top: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+	box-shadow: 0 2px 4px 0 darkgrey;
+}
+
+.card {
+	border-radius: 15px;
+}
+
+.card-body-icon {
+	position: absolute;
+	z-index: 0;
+	top: 25px;
+	right: 4px;
+	opacity: 0.4;
+	font-size: 90px;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+.head {
+	border-top: 2px solid black;
+}
+
+.display-2 {
+	font-weight: bold;
+}
+
+.nav-link:hover {
+	background-color: grey;
+}
+
+.card-text:hover{
+	background-color: grey;
+}
+
+@media screen and (max-width: 768px){
+		.col-md-2 {
+		height: 100%;
+		width: 100%;
+		position: static;
+	}
+
+	.col-md-10 {
+		margin-left: 0;
+		position: static;
+	}
+}
+
+.Detail {
+	position: fixed;
+	margin-top: 0;
+}
+.Content{
+	padding-top: 50px;
+	position: static;
+}
+
+@media screen and (max-width: 768px){
+.Content {
+padding-top: 90px;
+}
+}
